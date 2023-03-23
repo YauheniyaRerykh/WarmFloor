@@ -1,0 +1,21 @@
+.header {
+    padding-top: 18px;  /* отступ сверху */
+    padding-bottom: 18px;  /* отступ снизу */
+    
+}
+
+
+
+.header__container {
+display: flex;   /* в ряд */
+    align-items: center;  /* резиновые по центру */
+    justify-content: space-between;  /* раскидать по углам */
+}
+
+
+
+@media (max-width: 920px) {
+    .header__logo {
+        width: 124px;
+    }
+}
